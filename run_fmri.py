@@ -409,10 +409,10 @@ class AnalysisParameters:
     proj_dir: Path
     res_dir: Path
     all_ep_info_w_h_f: Path
-    subj_RDM_dir = Path('/home/huzcheng/Workspace/datasets/subj_RDMs')
-    data_dir = Path('/data/hammer/space2/mvpaGoals/data/fmri/')
-    noah_rdm_f = Path('results.refactor/GOLSAv2-TreasureHunt-Single/06-Jul-2018.mat')
-    mat_f4SPM = Path('/data/hammer/space2/mvpaGoals/data/golsaRSA_newTimes/golsav2.mat')
+    subj_RDM_dir = Path('/path/to/subject/subj_RDMs')
+    data_dir = Path('/path/to/subject/fmri/')
+    noah_rdm_f = Path('/path/to/subject/06-Jul-2018.mat')
+    mat_f4SPM = Path('/path/to/subject/golsav2.mat')
     subjects = [201, 210, 212, 213, 220, 221, 227, 228, 229, 230, 231, 233, 234,
                 235, 236, 238, 239, 240, 241, 242, 244, 245, 246, 247]
     center_radius = 3
